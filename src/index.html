@@ -8,16 +8,16 @@
     <link href="./output.css" rel="stylesheet" />
 </head>
 
-<body class="text-gray-800">
-    <header class="text-center">
-        <h1 class="text-3xl font-extrabold text-pink-700">¡Hola Mundo!</h1>
-        <p class="text-lg text-gray-600">
+<body class="text-gray-800 py-10 px-6 mx-auto max-w-4xl min-h-screen">
+    <header class="text-center py-10 px-6 mb-6">
+        <h1 class="text-5xl font-extrabold mb-6 bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent text-shadow-lg">¡Hola Mundo!</h1>
+        <p class="text-lg text-gray-600 mt-2">
             Una frase clásica con la que casi todos los programadores comienzan su
             aprendizaje de programación.
         </p>
     </header>
-    <nav>
-        <h2 class="text-2xl font-bold text-gray-700">Contenido</h2>
+    <nav class="py-10 px-6 mt-8 mb-6 rounded-xl shadow-lg">
+        <h2 class="text-2xl font-bold text-gray-700 mb-4">Contenido</h2>
         <ul class="list-inside list-image-[url(images/maki-arrow.svg)] text-lg font-semibold text-pink-600 ">
             <li><a href="#que-es" class="hover:underline">¿Qué es "Hola Mundo"?</a></li>
             <li><a href="#origin" class="hover:underline">Origen</a></li>
@@ -27,8 +27,9 @@
         </ul>
     </nav>
     <!-- ¿Qué es "Hola Mundo"? -->
-    <section id="que-es">
-        <h2 class="text-2xl font-bold text-gray-700">¿Qué es "Hola Mundo"?</h2>
+    <section id="que-es" class="py-10 px-6 rounded-xl shadow-lg
+    bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 to-60% mb-6">
+        <h2 class="text-2xl font-bold text-gray-700 mb-4">¿Qué es "Hola Mundo"?</h2>
         <p class="text-gray-600">
             "Hola Mundo" es una frase utilizada tradicionalmente como el primer
             programa que se escribe al aprender un nuevo lenguaje de programación.
@@ -37,8 +38,8 @@
         </p>
     </section>
     <!-- Origen -->
-    <section id="origin">
-        <h2 class="text-2xl font-bold text-gray-700">Origen</h2>
+    <section id="origin" class="py-10 px-6 rounded-xl shadow-lg mb-6">
+        <h2 class="text-2xl font-bold text-gray-700 mb-4">Origen</h2>
         <p class="text-gray-600">
             El concepto de "Hola Mundo" se remonta al libro "The C Programming
             Language" de Brian Kernighan y Dennis Ritchie, publicado en 1978. Desde
@@ -47,74 +48,74 @@
         </p>
     </section>
     <!-- Ejemplos en Diferentes Lenguajes -->
-    <section id="ejemplos">
-        <h2 class="text-2xl font-bold text-gray-700">Ejemplos en Diferentes Lenguajes</h2>
+    <section id="ejemplos" class="py-10 px-6 rounded-xl shadow-lg mb-6">
+        <h2 class="text-2xl font-bold text-gray-700 mb-4">Ejemplos en Diferentes Lenguajes</h2>
         <div>
             <div>
-                <h3 class="font-mono font-semibold text-xl">Python</h3>
-                <pre>
-                    <code>
-                        # Un simple ejemplo en Python
-                        def saludar():
-                            print("Hola Mundo")
+                <h3 class="font-mono font-semibold text-xl mb-4">Python</h3>
+                <pre class="m-6 rounded-lg bg-gray-800 px-6 text-green-400">
+<code class="leading-8 text-lg">
+# Un simple ejemplo en Python
+def saludar():
+    print("Hola Mundo")
 
-                        saludar()
-                    </code>
+saludar()
+</code>
                 </pre>
             </div>
             <div>
-                <h3 class="font-mono font-semibold text-xl">Java</h3>
-                <pre>
-                    <code>
-                        // Un simple ejemplo en Java
-                        public class HolaMundo {
-                            public static void saludar() {
-                                System.out.println("Hola Mundo");
-                            }
+                <h3 class="font-mono font-semibold text-xl mb-4">Java</h3>
+                <pre class="m-6 rounded-lg bg-gray-800 px-6 text-green-400">
+<code class="leading-8 text-lg">
+// Un simple ejemplo en Java
+public class HolaMundo {
+    public static void saludar() {
+        System.out.println("Hola Mundo");
+    }
 
-                            public static void main(String[] args) {
-                                saludar();
-                            }
-                        }
-                    </code>
+    public static void main(String[] args) {
+        saludar();
+    }
+}
+</code>
                 </pre>
             </div>
             <div>
-                <h3 class="font-mono font-semibold text-xl">Javascript</h3>
-                <pre>
-                    <code>
-                        // Un simple ejemplo en JavaScript
-                        function saludar() {
-                            console.log("Hola Mundo");
-                        }
+                <h3 class="font-mono font-semibold text-xl mb-4">Javascript</h3>
+                <pre class="m-6 rounded-lg bg-gray-800 px-6 text-green-400">
+<code class="leading-8 text-lg">
+// Un simple ejemplo en JavaScript
+function saludar() {
+    console.log("Hola Mundo");
+}
 
-                        saludar();
-                    </code>
+saludar();
+</code>
                 </pre>
             </div>
             <div>
-                <h3 class="font-mono font-semibold text-xl">C++</h3>
-                <pre>
-                    <code>
-                        // Un simple ejemplo en C++
-                        #include <iostream>
+                <h3 class="font-mono font-semibold text-xl mb-4">C++</h3>
+                <pre class="m-6 rounded-lg bg-gray-800 px-6 text-green-400">
+<code class="leading-8 text-lg">
+// Un simple ejemplo en C++
+#include <iostream>
 
-                        void saludar() {
-                            std::cout << "Hola Mundo" << std::endl;
-                        }
+void saludar() {
+    std::cout << "Hola Mundo" << std::endl;
+}
 
-                        int main() {
-                            saludar();
-                            return 0;
-                        }
-                    </code>
+int main() {
+    saludar();
+    return 0;
+}
+</code>
                 </pre>
             </div>
         </div>
     </section>
     <!-- Importancia -->
-    <section id="importancia">
-        <h2 class="text-2xl font-bold text-gray-700">Importancia</h2>
+    <section id="importancia" class="py-10 px-6 rounded-xl shadow-lg mb-6">
+        <h2 class="text-2xl font-bold text-gray-700 mb-4">Importancia</h2>
         <p class="text-gray-600">
             "Hola Mundo" es más que un simple mensaje. Representa el primer paso en
             el aprendizaje de un lenguaje de programación. Es una forma de familiarizarse con la sintaxis básica y de
@@ -123,17 +124,17 @@
         </p>
     </section>
     <!-- Call to Action (CTA) -->
-    <section id="cta">
-        <h2 class="text-2xl font-bold text-gray-700">¡Comienza Ahora!</h2>
+    <section id="cta" class="py-10 px-6 rounded-xl mb-6">
+        <h2 class="text-2xl font-bold text-gray-700 mb-4">¡Comienza Ahora!</h2>
         <p class="text-gray-600">
             ¿Listo para escribir tu propio "Hola Mundo"? Elige un lenguaje de programación,
             configura tu entorno y da el primer paso en tu viaje como desarrollador.
         </p>
     </section>
     <!-- Footer -->
-    <footer>
+    <footer class=" text-center bg-gray-300 py-10 px-6">
         <p class="text-gray-600">
-            Creado con pasión por un entusiasta de la programación.
+            Creado con pasión 💪 por un entusiasta de la programación.
         </p>
     </footer>
 </body>
