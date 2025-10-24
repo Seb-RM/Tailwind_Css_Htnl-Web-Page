@@ -23,7 +23,7 @@ El valor agregado radica en proporcionar una experiencia visual atractiva y educ
 
 ![Demo de la Página Web](src/images/Captura-TailwindWebPage.PNG)
 
-Para ver la demo en vivo, abre `index.html` en tu navegador web preferido  o visita la [demo en vivo](https://seb-rm.github.io/Tailwind_Css_Html_Js-Movie-Web-App/).
+Para ver la demo en vivo, abre `index.html` en tu navegador web preferido  o visita la [demo en vivo](https://seb-rm.github.io/Tailwind_Css_Htnl-Web-Page/).
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -45,8 +45,8 @@ Para ver la demo en vivo, abre `index.html` en tu navegador web preferido  o vis
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/tailwind-css-web-page.git
-   cd tailwind-css-web-page
+   git clone https://github.com/Seb-RM/Tailwind_Css_Htnl-Web-Page.git
+   cd Tailwind_Css_Htnl-Web-Page
    ```
 
 2. Abre el archivo `src/index.html` en tu navegador web preferido.
@@ -179,7 +179,7 @@ Muestra cómo se implementan los gradientes en Tailwind CSS usando variables CSS
 La arquitectura es simple y plana, adecuada para una página estática:
 
 ```text
-tailwind-css-web-page/
+Tailwind_Css_Htnl-Web-Page/
 ├── src/
 │   ├── index.html          # Página principal
 │   ├── input.css           # Entrada Tailwind
