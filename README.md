@@ -21,7 +21,7 @@ El valor agregado radica en proporcionar una experiencia visual atractiva y educ
 
 ## 🖼️ Demo/Vistas Previas
 
-![Demo de la Página Web](src/images/Captura-TailwindWebPage.PNG)
+![Demo de la Página Web](./src/images/Captura-TailwindWebPage.PNG)
 
 Para ver la demo en vivo, abre `index.html` en tu navegador web preferido  o visita la [demo en vivo](https://seb-rm.github.io/Tailwind_Css_Htnl-Web-Page/).
 
